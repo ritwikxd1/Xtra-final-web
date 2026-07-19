@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/home/:path*", "destination": "/index.html" },
+    { "source": "/commands", "destination": "/index.html" },
+    { "source": "/status", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/tos", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/index.html" },
+    { "source": "/team", "destination": "/index.html" },
+    { "source": "/((?!api).*|[^.]*)", "destination": "/index.html" }
+  ]
+}

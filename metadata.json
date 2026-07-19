@@ -1,0 +1,6 @@
+{
+  "name": "xtra - All-in-One Discord Bot",
+  "description": "A high-performance all-in-one Discord bot landing page featuring a stunning, responsive layout, interactive sections, and polished animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
