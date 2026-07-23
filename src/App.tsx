@@ -888,7 +888,7 @@ export default function App() {
             {/* Servers */}
             <div className="flex flex-col items-center">
               <span className={`font-sans font-black text-3xl tracking-tight ${isDarkMode ? "text-white" : "text-zinc-900"}`}>
-                216
+                {statusConfig.servers.toLocaleString()}
               </span>
               <span className="text-zinc-500 font-sans text-[10px] md:text-xs font-extrabold tracking-[0.18em] mt-1.5 uppercase">
                 {t("stat_servers")}
@@ -898,7 +898,7 @@ export default function App() {
             {/* Users */}
             <div className="flex flex-col items-center">
               <span className={`font-sans font-black text-3xl tracking-tight ${isDarkMode ? "text-white" : "text-zinc-900"}`}>
-                104,454
+                {statusConfig.users.toLocaleString()}
               </span>
               <span className="text-zinc-500 font-sans text-[10px] md:text-xs font-extrabold tracking-[0.18em] mt-1.5 uppercase">
                 {t("stat_users")}
